@@ -13,7 +13,7 @@ fileUrl<-"http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens"
 doc<-htmlTreeParse(fileUrl,useInternalNodes = TRUE)
 
 # Extract xmlValues from the list class score
-# <li class="score"> 
+# <li class="score">
 scores<-xpathSApply(doc,"//li[@class='score']",xmlValue)
 teams<-xpathSApply(doc,"//li[@class='team-name']",xmlValue)
 game_status<-xpathSApply(doc,"//li[@class='game-status']",xmlValue)
