@@ -7,6 +7,8 @@
 ## 4. MUTATE   for creating new columns based on existing columns
 ## 5. SUMMARIZE for collapsing rows and MORE
 
+## Load dplyr library
+library(dplyr)
 ## One unique aspect of dplyr is that the same set of tools allow you to work with tabular data from a variety of sources, including data frames, data
 ## tables, databases and multidimensional arrays.
 
