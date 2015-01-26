@@ -20,6 +20,5 @@ In this repository, you will find an R script called ```run_analysis.R``` that p
 
 ## Packages required
 
-```run_analysis.R``` requires you to install ```reshape2``` package. To do so, type
-```install.packages("reshape2")```
+```run_analysis.R``` requires you to install ```reshape2``` package. To do so, type ```install.packages("reshape2")```.
 
