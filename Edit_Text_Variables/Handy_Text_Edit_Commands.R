@@ -48,3 +48,6 @@ TakeSecondElement(SplitStringS[[1]]) # try out the function
 
 # Take the second word of all three sentences.
 sapply(SplitStringS,TakeSecondElement)
+
+
+
