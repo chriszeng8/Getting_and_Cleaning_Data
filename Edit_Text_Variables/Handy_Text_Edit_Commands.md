@@ -94,7 +94,7 @@ Result:
 [1] 1 3
 ```
 
-**```grepl``` function: return a logical vector of whether instances contains substring.**
+**```grepl``` function: return a logical vector of whether instances contains substring. Think the "l" as the end as logical, because the function returns a logical vector.**
 ```{r}
 grepl("are",String_Vect)
 ```
